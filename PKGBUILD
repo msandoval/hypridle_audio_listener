@@ -1,11 +1,11 @@
-# Maintainer: Your Name <your.email@example.com>
+# Maintainer: Manuel S. https://github.com/msandoval/
 pkgname=hypridle_audio_listener
 pkgver=0.1.0
 pkgrel=1
 pkgdesc="A hypridle tool to turn off monitors when audio is not playing."
 arch=('x86_64')
 url="https://github.com/msandoval/hypridle_audio_listener"
-license=('BSD-3-Clause') # Replace with your app's license
+license=('BSD-3-Clause')
 depends=()
 makedepends=('rust' 'cargo' 'pipewire' 'clang' 'llvm')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/msandoval/hypridle_audio_listener/archive/refs/tags/$pkgver.tar.gz")
