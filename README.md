@@ -7,7 +7,11 @@ This tool was created for hypridle users who want to set up a listener to turn o
 
 ## Requirements
 You will need to have a working Pipewire or PulseAudio with either ``pactl`` or ``pw-dump`` installed.
-
+## Install
+### Arch/CachyOS
+```ini
+makepkg -si
+```
 ## How to use
 Below is an example ~/.config/hypr/hypridle.conf file:
 ```ini
